@@ -58,9 +58,7 @@ void handle_file(char *msg, int len)
 }
 
 /**
- * main - the main logic of the program
- * @ac: arguments count
- * @av: array of arguments
+ * main - the main logic of the programs
  * Return: 0 on success or 1 otherwise
  */
 
