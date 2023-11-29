@@ -13,7 +13,10 @@ void func_handle_exit(char *first_arg, char *buffer, char **argv)
 
 	if (argv[1])
 		n_exit = _atoi(argv[1]);
-
+	if (n_exit == 0 && WIFEXITED(n_exit) && WEXITSTATUS(n_exit) != 0)
+	{
+		n_exit = 2;
+	}
 	free(first_arg), free(buffer), free(argv);
 	exit(n_exit);
 }
