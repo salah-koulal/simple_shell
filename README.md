@@ -65,7 +65,7 @@ This project was inspired by the desire to understand the internals of a shell a
 
 For any questions or inquiries, please contact nour mellal & houssam benassi.
 
-Email: 55205houssam@gmail.com, mellalnour9@gmail.com
+Email: skosalah1@gmail.com
 
 
 Feel free to adjust the styling as per your preference.
